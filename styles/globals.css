@@ -1,0 +1,38 @@
+@import url("https://use.typekit.net/ugs8fqn.css");
+
+:root {
+  --primary-color: green;
+  --secondard-color: blue;
+  --tertiary-color: red;
+  --light-color: white;
+  --dark-color: black;
+  --font-size: 1.05rem;
+  --font-family-heading: hwt-mardell, sans-serif;
+  --font-family-body: bookmania, serif;
+  --font-weight-light: 300;
+  --font-weight-heavy: 700;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-family-body), -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: var(--font-weight-light);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#__next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
