@@ -21,22 +21,22 @@ export default function Home() {
       <main className={styles.main}>
         <Image src={logo} alt="AlienHerald logo" className={styles.logo} />
         <section className={styles.linkIcons}>
-          <Link href="https://www.facebook.com/105695311770374">
+          <Link href="https://www.facebook.com/105695311770374" passHref>
             <FontAwesomeIcon icon={faFacebookF} />
           </Link>
-          <Link href="https://www.github.com/afewvowels">
+          <Link href="https://www.github.com/afewvowels" passHref>
             <FontAwesomeIcon icon={faGithub} />
           </Link>
-          <Link href="https://www.instagram.com/alienheraldworkshop">
+          <Link href="https://www.instagram.com/alienheraldworkshop" passHref>
             <FontAwesomeIcon icon={faInstagram} />
           </Link>
-          <Link href="https://www.patreon.com/AlienHerald">
+          <Link href="https://www.patreon.com/AlienHerald" passHref>
             <FontAwesomeIcon icon={faPatreon} />
           </Link>
-          <Link href="https://www.twitch.tv/alienherald">
+          <Link href="https://www.twitch.tv/alienherald" passHref>
             <FontAwesomeIcon icon={faTwitch} />
           </Link>
-          <Link href="https://twitter.com/AlienHerald">
+          <Link href="https://twitter.com/AlienHerald" passHref>
             <FontAwesomeIcon icon={faTwitter} />
           </Link>
         </section>
