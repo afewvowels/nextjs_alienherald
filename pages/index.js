@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Image src={logo} alt="AlienHerald logo" className={styles.logo} />
+        <Image src='/logo.svg' alt="AlienHerald logo" className={styles.logo} />
         <section className={styles.linkIcons}>
           <Link href="https://www.facebook.com/105695311770374" passHref>
             <FontAwesomeIcon icon={faFacebookF} />
