@@ -72,6 +72,7 @@
   align-items: center;
   flex-grow: 1;
   font-weight: var(--font-weight-light);
+  font-size: 1.1rem;
   margin: 0;
   padding: 1rem 0;
 }
