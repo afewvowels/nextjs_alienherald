@@ -32,8 +32,21 @@ a {
   box-sizing: border-box;
 }
 
+main {
+  display: grid;
+  align-items: flex-start;
+  justify-items: center;
+}
+
 #__next {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-rows: auto 4rem;
+  grid-template-columns: 1;
+  grid-gap: 1rem;
+  min-height: 100vh;
+  min-width: 100vw; }
+  @media only screen and (max-width: 500px) {
+    #__next {
+      grid-template-rows: auto 5.5rem;
+    }
 }

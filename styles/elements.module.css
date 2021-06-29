@@ -1,0 +1,19 @@
+.footer {
+  align-self: center;
+  justify-self: center;
+  width: fit-content;
+  height: 100%;
+  border-top: 1px solid #eaeaea;
+  padding: 0 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer h6 {
+  font-weight: var(--font-weight-light);
+  font-size: 1.1rem;
+  margin: 0;
+  word-wrap: break-word;
+  text-align: center;
+}
