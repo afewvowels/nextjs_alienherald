@@ -14,6 +14,9 @@ const Home = () => {
     <Link href='/' passHref>
       <h1>Projects</h1>
     </Link>
+    <Link href='/project/liporosnode' passHref>
+      <p>Lipo Battery Monitor ROS Node</p>
+    </Link>
   </>)
 }
 

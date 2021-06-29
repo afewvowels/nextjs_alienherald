@@ -1,11 +1,11 @@
 @import url("https://use.typekit.net/ugs8fqn.css");
 
 :root {
-  --primary-color: green;
-  --secondard-color: blue;
-  --tertiary-color: red;
-  --light-color: white;
-  --dark-color: black;
+  --primary-color: #6FF147;
+  --secondary-color: #167BF3;
+  --tertiary-color: #F30A72;
+  --light-color: rgb(252, 251, 251);
+  --dark-color: hsl(240, 3%, 15%);
   --font-size: 1.05rem;
   --font-family-heading: hwt-mardell, sans-serif;
   --font-family-body: bookmania, serif;
@@ -30,23 +30,28 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 main {
   display: grid;
+  grid-auto-rows: min-content;
+  grid-template-columns: 1;
+  grid-gap: 1rem;
   align-items: flex-start;
   justify-items: center;
 }
 
 #__next {
   display: grid;
-  grid-template-rows: auto 4rem;
+  grid-template-rows: min-content auto 4rem;
   grid-template-columns: 1;
   grid-gap: 1rem;
   min-height: 100vh;
-  min-width: 100vw; }
+  min-width: 100%; }
   @media only screen and (max-width: 500px) {
     #__next {
-      grid-template-rows: auto 5.5rem;
+      grid-template-rows: min-content auto 5.5rem;
     }
 }
