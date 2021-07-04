@@ -9,6 +9,7 @@
   "start_url": "/hidden/uneeq",
   "icons" : [{
     "src": "/logo.svg",
-    "type": "image/svg+xml"
+    "type": "image/svg+xml",
+    "sizes": "any"
   }]
 }
