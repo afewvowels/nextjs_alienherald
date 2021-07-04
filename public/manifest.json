@@ -8,7 +8,7 @@
   "scope": "/hidden/uneeq",
   "start_url": "/hidden/uneeq",
   "icons" : [{
-    "src": "logo.svg",
+    "src": "/logo.svg",
     "type": "image/svg+xml"
   }]
 }
