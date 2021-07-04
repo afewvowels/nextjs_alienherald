@@ -12,13 +12,13 @@ const Index = () => {
         </Head>
 
         <Link href='/project' passHref>
-          <h1>Projects</h1>
+          <h1 className={styles.clickable}>Projects</h1>
         </Link>
         <h2>Lipo Battery Monitor ROS Node</h2>
         <ul>
-            <li><Link href='/project/liporosnode/p1' passHref>Part 1 - Sodering the connections</Link></li>
-            <li><Link href='/project/liporosnode/p2' passHref>Part 2 - Arduino microcontroller code</Link></li>
-            <li><Link href='/project/liporosnode/p3' passHref>Part 3 - Coding the ROS node</Link></li>
+            <li className={styles.clickable}><Link href='/project/liporosnode/p1' passHref>Part 1 - Sodering the connections</Link></li>
+            <li className={styles.clickable}><Link href='/project/liporosnode/p2' passHref>Part 2 - Arduino microcontroller code</Link></li>
+            <li className={styles.clickable}><Link href='/project/liporosnode/p3' passHref>Part 3 - Coding the ROS node</Link></li>
         </ul>
     </>)
 }

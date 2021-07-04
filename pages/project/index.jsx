@@ -12,10 +12,10 @@ const Home = () => {
     </Head>
 
     <Link href='/' passHref>
-      <h1>Projects</h1>
+      <h1 className={styles.clickable}>Projects</h1>
     </Link>
     <Link href='/project/liporosnode' passHref>
-      <p>Lipo Battery Monitor ROS Node</p>
+      <p className={styles.clickable}>Lipo Battery Monitor ROS Node</p>
     </Link>
   </>)
 }
