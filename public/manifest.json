@@ -1,0 +1,14 @@
+{
+  "name": "Molly",
+  "short_name": "Molly",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "scope": "/hidden/uneeq",
+  "start_url": "/hidden/uneeq",
+  "icons" : [{
+    "src": "logo.svg",
+    "type": "image/svg+xml"
+  }]
+}
