@@ -10,6 +10,7 @@ const Header = () => {
         <ul>
           <li><Link href='/' passHref>Home</Link></li>
           <li><Link href='/project' passHref>Projects</Link></li>
+          <li><Link href='https://alienherald.threadless.com/designs/alienherald' passHref>Merch</Link></li>
         </ul>
       </nav>
     </header>
