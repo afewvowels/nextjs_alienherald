@@ -38,20 +38,28 @@
   display: grid;
   align-items: center;
   justify-items: center;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 1;
+  grid-template-columns: 1;
+  grid-template-rows: 2;
   grid-gap: 0.5rem;
 }
 
-.linkIcons > svg {
+.linkIcons > span > svg {
   width: 2rem;
   height: auto;
   cursor: pointer;
+  margin: 0.5rem;
 }
 
-.linkIcons > svg:first-child {
+.linkIcons > span > svg:first-child {
   height: 2rem;
   width: auto;
+}
+
+.linkIcons > span {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .heading {
