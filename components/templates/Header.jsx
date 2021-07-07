@@ -30,13 +30,13 @@ const Header = () => {
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','${process.env.GTM_ID}');`}}/>
     </Head>
-    <noscript>
-      <iframe
-        src={`https://www.googletagmanager.com/ns.html?id=${process.env.GTM_ID}`}
+    <noscript
+      dangerouslySetInnerHTML={{_html:
+      `<iframe
+        src="https://www.googletagmanager.com/ns.html?id=${process.env.GTM_ID}"
         height="0"
         width="0"
-        style={{display: 'none', visibility: 'hidden'}}/>
-    </noscript>
+        style={{display: 'none', visibility: 'hidden'}}></iframe>`,}}/>
     <header className={styles.header}>
       <h1 className={styles.headerTitle}>A<span>H</span></h1>
       <nav className={styles.headerNav}>
