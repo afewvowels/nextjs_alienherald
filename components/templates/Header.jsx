@@ -17,10 +17,10 @@ const Header = () => {
           t.src=v;s=b.getElementsByTagName(e)[0];
           s.parentNode.insertBefore(t,s)}(window, document,'script',
           'https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', '${FB_PIXEL_ID}');
+          fbq('init', '${process.env.FB_PIXEL_ID}');
           fbq('track', 'PageView');`}}>
       </script>
-      <noscript><Image height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=${FB_PIXEL_ID}&ev=PageView&noscript=1" alt="Facebook pixel noscript image" /></noscript>
+      <noscript><Image height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=${process.env.FB_PIXEL_ID}&ev=PageView&noscript=1" alt="Facebook pixel noscript image" /></noscript>
 
       <script dangerouslySetInnerHTML={{
         _html:
@@ -28,11 +28,11 @@ const Header = () => {
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','${GTM_ID}');`}}/>
+        })(window,document,'script','dataLayer','${process.env.GTM_ID}');`}}/>
     </Head>
     <noscript>
       <iframe
-        src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+        src={`https://www.googletagmanager.com/ns.html?id=${process.env.GTM_ID}`}
         height="0"
         width="0"
         style={{display: 'none', visibility: 'hidden'}}/>
