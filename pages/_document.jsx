@@ -13,7 +13,7 @@ class MyDocument extends Document {
       <Html lang='en'>
         <Head>
           <script dangerouslySetInnerHTML={{
-            _html:
+            __html:
               `!function(f,b,e,v,n,t,s)
               {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
               n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -25,7 +25,8 @@ class MyDocument extends Document {
               fbq('init', '${process.env.FB_PIXEL_ID}');
               fbq('track', 'PageView');`}}>
           </script>
-          <noscript><Image height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=${process.env.FB_PIXEL_ID}&ev=PageView&noscript=1" alt="Facebook pixel noscript image" /></noscript>
+          <noscript
+            dangerouslySetInnerHTML={{__html: `<iframe height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=${process.env.FB_PIXEL_ID}&ev=PageView&noscript=1" alt="Facebook pixel noscript image" />`,}}/>
           {/* Google Tag Manager */}
           <script
             dangerouslySetInnerHTML={
