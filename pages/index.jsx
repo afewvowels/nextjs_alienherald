@@ -40,6 +40,9 @@ const Home = () => {
           </Link>
         </span>
         <span>
+          <Link href="https://www.tiktok.com/@alienherald" passHref>
+            <FontAwesomeIcon icon={faTiktok} />
+          </Link>
           <Link href="https://thingiverse.com/AlienHerald" passHref>
             <FontAwesomeIcon icon={faToolbox} />
           </Link>
