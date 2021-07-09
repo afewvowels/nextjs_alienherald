@@ -4,8 +4,8 @@ import Link from 'next/link'
 import styles from 'styles/Home.module.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTrafficCone, faTshirt } from '@fortawesome/pro-solid-svg-icons'
-import { faFacebookF, faGithub, faInstagram, faPatreon, faPaypal, faTwitch, faTwitter, faVimeo } from '@fortawesome/free-brands-svg-icons'
+import { faTshirt } from '@fortawesome/pro-solid-svg-icons'
+import { faFacebookF, faGithub, faInstagram, faPatreon, faPaypal, faTwitch, faTwitter, faVimeo, faTiktok } from '@fortawesome/free-brands-svg-icons'
 import { faToolbox } from '@fortawesome/free-solid-svg-icons'
 
 const Home = () => {
