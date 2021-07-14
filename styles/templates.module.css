@@ -25,6 +25,7 @@
 
 .headerTitle > span {
   color: var(--primary-color);
+  cursor: pointer;
 }
 
 .headerNav > ul {
