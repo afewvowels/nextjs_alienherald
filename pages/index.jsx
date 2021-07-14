@@ -4,8 +4,8 @@ import Link from 'next/link'
 import styles from 'styles/Home.module.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTrafficCone, faTshirt } from '@fortawesome/pro-solid-svg-icons'
-import { faFacebookF, faGithub, faInstagram, faPatreon, faPaypal, faTwitch, faTwitter, faVimeo } from '@fortawesome/free-brands-svg-icons'
+import { faTshirt } from '@fortawesome/pro-solid-svg-icons'
+import { faFacebookF, faGithub, faInstagram, faPatreon, faPaypal, faTwitch, faTwitter, faVimeo, faTiktok } from '@fortawesome/free-brands-svg-icons'
 import { faToolbox } from '@fortawesome/free-solid-svg-icons'
 
 const Home = () => {
@@ -40,6 +40,9 @@ const Home = () => {
           </Link>
         </span>
         <span>
+          <Link href="https://www.tiktok.com/@alienherald" passHref>
+            <FontAwesomeIcon icon={faTiktok} />
+          </Link>
           <Link href="https://thingiverse.com/AlienHerald" passHref>
             <FontAwesomeIcon icon={faToolbox} />
           </Link>
