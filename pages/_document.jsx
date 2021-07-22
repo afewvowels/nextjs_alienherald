@@ -62,7 +62,7 @@ class MyDocument extends Document {
 
           <script dangerouslySetInnerHTML={{__html:
             `var chatbox = document.getElementById('fb-customer-chat');
-            chatbox.setAttribute("page_id", "105695311770374");
+            chatbox.setAttribute("page_id", "${process.env.MESSENGER_ID}");
             chatbox.setAttribute("attribution", "biz_inbox");
 
             window.fbAsyncInit = function() {
