@@ -15,6 +15,7 @@ class MyDocument extends Document {
           <link rel="manifest" href="/site.webmanifest"/>
           <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
           <link rel="icon" href="/logo.svg" />
+          <meta name="mobile-web-app-capable" content="yes"/>
           <meta name="apple-mobile-web-app-title" content="AlienHerald"/>
           <meta name="application-name" content="AlienHerald"/>
           <meta name="msapplication-TileColor" content="#603cba"/>
@@ -26,10 +27,10 @@ class MyDocument extends Document {
 
           <meta name="application-name" content="AlienHerald"/>
 
-          <link href="/logo.svg" rel="apple-touch-icon"/>
-          <link href="/logo.svg" rel="apple-touch-icon" sizes="76x76"/>
-          <link href="/logo.svg" rel="apple-touch-icon" sizes="120x120"/>
-          <link href="/logo.svg" rel="apple-touch-icon" sizes="152x152"/>
+          <link href="/android-chrome-512x512.png" rel="apple-touch-icon"/>
+          <link href="/android-chrome-512x512.png" rel="apple-touch-icon" sizes="76x76"/>
+          <link href="/android-chrome-512x512.png" rel="apple-touch-icon" sizes="120x120"/>
+          <link href="/android-chrome-512x512.png" rel="apple-touch-icon" sizes="152x152"/>
           <link href="/safari-pinned-tab.svg" rel="mask-icon" size="any" color="red"/>
 
           <script dangerouslySetInnerHTML={{
