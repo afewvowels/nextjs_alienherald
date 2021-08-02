@@ -12,6 +12,26 @@ class MyDocument extends Document {
     return(
       <Html lang='en'>
         <Head>
+          <link rel="manifest" href="/site.webmanifest"/>
+          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
+          <link rel="icon" href="/logo.svg" />
+          <meta name="apple-mobile-web-app-title" content="AlienHerald"/>
+          <meta name="application-name" content="AlienHerald"/>
+          <meta name="msapplication-TileColor" content="#603cba"/>
+          <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+
+          <meta name="apple-mobile-web-app-title" content="Application Title"/>
+          <meta name="apple-mobile-web-app-capable" content="yes"/>
+          <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+
+          <meta name="application-name" content="AlienHerald"/>
+
+          <link href="/logo.svg" rel="apple-touch-icon"/>
+          <link href="/logo.svg" rel="apple-touch-icon" sizes="76x76"/>
+          <link href="/logo.svg" rel="apple-touch-icon" sizes="120x120"/>
+          <link href="/logo.svg" rel="apple-touch-icon" sizes="152x152"/>
+          <link href="/safari-pinned-tab.svg" rel="mask-icon" size="any" color="red"/>
+
           <script dangerouslySetInnerHTML={{
             __html:
               `!function(f,b,e,v,n,t,s)

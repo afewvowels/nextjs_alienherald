@@ -1,15 +1,21 @@
 {
-  "name": "Molly",
-  "short_name": "Molly",
+  "name": "AlienHerald",
+  "short_name": "AlienHerald",
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
   "display": "fullscreen",
   "orientation": "portrait",
-  "scope": "/hidden/uneeq",
-  "start_url": "/hidden/uneeq",
-  "icons" : [{
-    "src": "/logo.svg",
-    "type": "image/svg+xml",
-    "sizes": "any"
-  }]
+  "scope": "/",
+  "start_url": "/",
+  "icons" : [
+    {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    },
+    {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }]
 }
