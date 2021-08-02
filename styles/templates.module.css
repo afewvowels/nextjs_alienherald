@@ -5,8 +5,13 @@
   align-items: center;
   height: fit-content;
   width: 100%;
-  padding: 1rem 2rem;
+  padding: 1rem 2rem; }
+  @media only screen and (max-width: 380px) {
+    .header {
+      padding: 1rem 0.5rem;
+    }
 }
+
 
 .headerTitle {
   font-family: var(--font-family-heading);
@@ -38,5 +43,9 @@
 
 .headerNav > ul > li {
   padding: 0.5rem;
-  font-weight: var(--font-weight-heavy)
+  font-weight: var(--font-weight-heavy) }
+  @media only screen and (max-width: 380px) {
+    .headerNav > ul > li {
+      padding: 0.25rem;
+    }
 }
