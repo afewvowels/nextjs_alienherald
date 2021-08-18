@@ -20,7 +20,7 @@ const Home = () => {
       <Image src='/logo.svg' alt="AlienHerald logo" height={512} width={512} className={styles.logo} />
       <section className={styles.linkIcons}>
         <span>
-          <Link href="https://www.facebook.com/105695311770374" passHref>
+          <Link href="https://www.facebook.com/AlienHerald" passHref>
             <FontAwesomeIcon icon={faFacebookF} />
           </Link>
           <Link href="https://www.github.com/AlienHerald" passHref>
