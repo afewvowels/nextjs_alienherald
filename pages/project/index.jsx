@@ -17,6 +17,9 @@ const Home = () => {
     <Link href='/project/liporosnode' passHref>
       <p className={styles.clickable}>Lipo Battery Monitor ROS Node</p>
     </Link>
+    <Link href='/detection' passHref>
+      <p className={styles.clickable}>Simple Object Detection</p>
+    </Link>
   </>)
 }
 
