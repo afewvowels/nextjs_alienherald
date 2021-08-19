@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Script from 'next/script'
 
 const Detection = () => {
 
@@ -6,9 +7,9 @@ const Detection = () => {
     <Head>
       <title>Detection | AlienHerald</title>
       {/* <link rel="stylesheet" type="text/css" href="detection.css" /> */}
-      <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js" type="text/javascript"></script>
-      <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
-      <script src="detection.js" defer />
+      <Script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js" type="text/javascript"></Script>
+      <Script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></Script>
+      <script src="detection.js" defer/>
     </Head>
     <h2>Detection</h2>
     <section id="demos" className="invisible">
