@@ -7,9 +7,6 @@ const Detection = () => {
     <Head>
       <title>Detection | AlienHerald</title>
       {/* <link rel="stylesheet" type="text/css" href="detection.css" /> */}
-      <Script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js" type="text/javascript"></Script>
-      <Script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></Script>
-      <script src="detection.js" defer/>
     </Head>
     <h2>Detection</h2>
     <section id="demos" className="invisible">
@@ -18,6 +15,9 @@ const Detection = () => {
         <video id="webcam" width="640" height="480" autoPlay></video>
       </div>
     </section>
+    <script defer src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js" type="text/javascript"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+    <script src="detection.js" defer></script>
     <style>{`
       #liveView {
         margin: 0;
