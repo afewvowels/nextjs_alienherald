@@ -182,17 +182,26 @@
   border: 2px solid var(--dark-color);
   border-radius: 0.333rem;
   padding: 0.5rem;
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr 1.666rem 2fr;
   grid-template-rows: 1fr;
   align-items: center;
-  justify-items: center;
+  justify-items: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
 }
-.socialLink > svg {
+
+.socialLink > * + * {
+  margin-left: 0.5rem;
+}
+
+/* .socialLink > svg {
   grid-column-start: 2;
 }
+
 .socialLink > p {
   margin-top: 0.333rem;
   justify-self: flex-start;
-}
+} */
