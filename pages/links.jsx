@@ -26,6 +26,18 @@ const links = () => {
           <p>Patreon</p>
         </div>
       </Link>
+      <Link href="https://paypal.me/AlienHerald" passHref>
+        <div className={styles.socialLink}>
+          <FontAwesomeIcon icon={faPaypal} />
+          <p>Paypal</p>
+        </div>
+      </Link>
+      <Link href="https://twitter.com/AlienHerald" passHref>
+        <div className={styles.socialLink}>
+          <FontAwesomeIcon icon={faTwitter} />
+          <p>Twitter</p>
+        </div>
+      </Link>
       <Link href="https://www.instagram.com/alienheraldworkshop" passHref>
         <div className={styles.socialLink}>
           <FontAwesomeIcon icon={faInstagram} />
@@ -38,22 +50,34 @@ const links = () => {
           <p>Facebook</p>
         </div>
       </Link>
+      <Link href="https://www.github.com/AlienHerald" passHref>
+        <div className={styles.socialLink}>
+          <FontAwesomeIcon icon={faGithub} />
+          <p>Github</p>
+        </div>
+      </Link>
+      <Link href="https://www.tiktok.com/@alienherald" passHref>
+        <div className={styles.socialLink}>
+          <FontAwesomeIcon icon={faTiktok} />
+          <p>TikTok</p>
+        </div>
+      </Link>
       <Link href="https://www.twitch.tv/alienherald" passHref>
         <div className={styles.socialLink}>
           <FontAwesomeIcon icon={faTwitch} />
           <p>Twitch</p>
         </div>
       </Link>
-      <Link href="https://www.facebook.com/AlienHerald" passHref>
+      <Link href="https://thingiverse.com/AlienHerald" passHref>
         <div className={styles.socialLink}>
-          <FontAwesomeIcon icon={faFacebookF} />
-          <p>Facebook</p>
+          <FontAwesomeIcon icon={faToolbox} />
+          <p>Thingiverse</p>
         </div>
       </Link>
-      <Link href="https://www.github.com/AlienHerald" passHref>
+      <Link href="https://vimeo.com/user144700268" passHref>
         <div className={styles.socialLink}>
-          <FontAwesomeIcon icon={faGithub} />
-          <p>Github</p>
+          <FontAwesomeIcon icon={faVimeo} />
+          <p>Vimeo</p>
         </div>
       </Link>
     </section>
